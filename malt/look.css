@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.col-md-4{
+	padding-bottom: 1em;
+}
+#info{
+	font-size:1.2em;
+}
+#pricing{
+	display: block;
+	width: 29%;
+	float: left;
+	margin: 2% 2em;
+	text-align: left;
+}
+.row{
+	padding-top: 1.5em;
+}
+.col-md-12{
+	text-align: center;
+}

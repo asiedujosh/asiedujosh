@@ -1,0 +1,16 @@
+*{
+
+}
+button {
+	float: right;
+}
+h3{
+	text-align: center;
+	padding-top: 1.5em;
+}
+#error{
+	
+	color: #a94442;
+	
+	
+}

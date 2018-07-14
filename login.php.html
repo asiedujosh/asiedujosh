@@ -1,0 +1,87 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+<!-- Head -->
+
+<head>
+    <title>Login To FarmX</title>
+    <!-- Meta-Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="crops, crops in ghana, farms in ghana, buy crops, vegetables, tubers, agric, planting for food and jobs">
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta-Tags -->
+    <!-- Index-Page-CSS -->
+    <link rel="stylesheet" href="malt/style.css" type="text/css" media="all">
+    <!-- //Custom-Stylesheet-Links -->
+    <!--fonts -->
+    <!-- //fonts -->
+    <link rel="stylesheet" href="malt/font-awesome.css" type="text/css" media="all">
+    <!-- //Font-Awesome-File-Links -->
+	
+	<!-- Google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+
+	<!-- Google fonts -->
+
+</head>
+<!-- //Head -->
+<!-- Body -->
+
+<body>
+    <h1 class="title-agile text-center">Login To Your Profile</h1>
+    <div class="content-w3ls">
+        <div class="content-bottom">
+			<h2>Login<i class="fa fa-hand-o-down" aria-hidden="true"></i></h2>
+            <form action="update.php" method="post">
+                
+                <div class="field-group">
+                    <span class="fa fa-envelope" aria-hidden="true"></span>
+                    <div class="wthree-field">
+                        <input name="email" id="email" type="email" value="" placeholder="Email" required>
+                    </div>
+                </div>
+                
+                <div class="field-group">
+                    <span class="fa fa-lock" aria-hidden="true"></span>
+                    <div class="wthree-field">
+                        <input name="password" id="myInput" type="Password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="wthree-field">
+                    <input id="saveForm" name="login" type="submit" value="Login" />
+                </div>
+				<div class="account">
+					<p class="text-center">Dont have an account ? <a href="register.php">Register</a></p>
+				</div>
+            </form>
+        </div>
+    </div>
+    <div class="copyright text-center">
+        <p>Copyright &copy; farmx 2018
+        </p>
+    </div>
+</body>
+<!-- //Body -->
+</html>
+<!--
+    if(isset($_Post['update'])){
+    $email = htmlspecialchars(mysqli_real_escape_string($conn,$_POST['email']));
+    $password = mysqli_real_escape_string($conn,$_POST['password']);
+    $hashed_pass = password_hash($password,PASSWORD_DEFAULT);
+
+    $sql = "SELECT "
+    }
